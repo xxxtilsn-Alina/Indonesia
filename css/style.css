@@ -23,6 +23,8 @@ body {
 
 .header-container {
   display: flex;
+  padding-top: 28px;
+  align-items: center;
 }
 
 .header-list {
@@ -36,7 +38,6 @@ body {
 .header-lists {
   display: flex;
 }
-
 .logo {
   color: var(--accent-color);
   font-feature-settings: "clig" off, "liga" off;
@@ -63,6 +64,13 @@ body {
 }
 
 /* Indonesia */
+.indonesia {
+  padding-top: 160px;
+}
+
+.Indonesia-black {
+  margin-left: 277px;
+}
 
 .indonesia-text {
   color: var(--accent-color);
@@ -71,6 +79,9 @@ body {
   font-weight: 900;
   line-height: 1.3;
   text-transform: uppercase;
+  max-width: 628px;
+  margin-left: 277px;
+  margin-bottom: 21px;
 }
 
 .indonesia-btn {
@@ -81,6 +92,24 @@ body {
   font-size: 20px;
   font-weight: 700;
   line-height: 1.5;
+  display: flex;
+  width: 271.141px;
+  height: 82px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  margin-left: 277px;
+  margin-bottom: 241px;
+}
+
+.indonesia-list {
+  display: flex;
+  border: 1px solid #000;
+  opacity: 0.6;
+  background: #000;
+  gap: 198px;
 }
 
 .indonesia-nomber {
@@ -90,6 +119,8 @@ body {
   font-weight: 900;
   line-height: normal;
   text-transform: uppercase;
+  padding-top: 41px;
+  margin-bottom: 14px;
 }
 
 .indonesia-tytle {
@@ -99,6 +130,14 @@ body {
   line-height: 41.081px;
 }
 
+.item-one {
+  margin-left: 71px;
+}
+
+.item-two {
+  margin-right: 128px;
+}
+
 .indonesia-info {
   color: var(--title-here-color);
   font-feature-settings: "clig" off, "liga" off;
@@ -106,8 +145,21 @@ body {
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0.5px;
+  margin-bottom: 50px;
+}
+
+.indonesia-item {
+  max-width: 210px;
 }
 /* walkways */
+
+.walkways {
+  padding-top: 207px;
+}
+
+.walkways-list {
+  display: flex;
+}
 
 .walkways-text {
   color: var(--accent-color);
