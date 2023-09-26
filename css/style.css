@@ -21,6 +21,22 @@ body {
   margin-left: auto;
 }
 
+.header-container {
+  display: flex;
+}
+
+.header-list {
+  display: flex;
+  gap: 62px;
+}
+
+.header-navigation {
+  display: flex;
+}
+.header-lists {
+  display: flex;
+}
+
 .logo {
   color: var(--accent-color);
   font-feature-settings: "clig" off, "liga" off;
@@ -30,6 +46,8 @@ body {
   line-height: 80.5%;
   letter-spacing: 0.315px;
   text-transform: uppercase;
+  max-width: 129px;
+  margin-right: 78px;
 }
 
 .header-link {
@@ -38,6 +56,10 @@ body {
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
+}
+
+.header-search {
+  margin-right: 40px;
 }
 
 /* Indonesia */
