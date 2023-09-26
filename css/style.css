@@ -157,8 +157,16 @@ body {
   padding-top: 207px;
 }
 
-.walkways-list {
+.header-cont {
   display: flex;
+  align-items: center;
+  margin-left: 340px;
+  margin-bottom: 192px;
+}
+
+.walkways-item {
+  max-width: 408px;
+  margin-left: 130px;
 }
 
 .walkways-text {
@@ -184,6 +192,12 @@ body {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.5;
+  display: flex;
+  width: 179.813px;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
 }
 
 /* secrets */
