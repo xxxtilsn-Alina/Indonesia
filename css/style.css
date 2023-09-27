@@ -106,10 +106,10 @@ body {
 
 .indonesia-list {
   display: flex;
+  gap: 198px;
   border: 1px solid #000;
   opacity: 0.6;
   background: #000;
-  gap: 198px;
 }
 
 .indonesia-nomber {
@@ -155,9 +155,11 @@ body {
 
 .walkways {
   padding-top: 207px;
+  background: black;
+  padding-bottom: 305px;
 }
 
-.header-cont {
+.indonesia-walkways {
   display: flex;
   align-items: center;
   margin-left: 340px;
@@ -165,7 +167,11 @@ body {
 }
 
 .walkways-item {
-  max-width: 408px;
+  max-width: 480px;
+  margin-right: 196px;
+}
+
+.walkways-item-one {
   margin-left: 130px;
 }
 
@@ -175,6 +181,7 @@ body {
   font-size: 42px;
   font-weight: 700;
   line-height: 50px;
+  margin-bottom: 4px;
 }
 .walkways-info {
   color: var(--walkways-secrets-info-color);
@@ -182,6 +189,8 @@ body {
   font-weight: 400;
   line-height: 2.8;
   letter-spacing: 0.18px;
+  max-width: 408px;
+  margin-bottom: 32px;
 }
 
 .walkways-btn {
@@ -202,15 +211,48 @@ body {
 
 /* secrets */
 
+.ssecrets-item {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .secrets-title {
   color: var(--footer-color);
   text-align: center;
   font-size: 50px;
   font-weight: 700;
   line-height: 1.5;
+  padding-top: 127px;
+  margin-bottom: 45px;
+}
+
+.secrets-item {
+  display: flex;
+  align-items: center;
+  gap: 31px;
+}
+
+.sekrets-wrapper {
+  text-align: center;
 }
 
 /* numbers */
+
+.numbers {
+  background-color: #000;
+  padding-top: 201px;
+  padding-bottom: 224px;
+}
+
+.numbers-list {
+  display: flex;
+}
+
+.numbers-item {
+  max-width: 340px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 .numbers-title {
   color: var(--accent-color);
@@ -218,6 +260,7 @@ body {
   font-size: 60px;
   font-weight: 700;
   line-height: 1.5;
+  margin-bottom: 37px;
 }
 
 .numbers-info {
@@ -228,6 +271,13 @@ body {
   font-weight: 400;
   line-height: 2.8;
   letter-spacing: 0.5px;
+  margin-bottom: 39px;
+}
+
+.numbers-container {
+  max-width: 484px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .numbers-text {
