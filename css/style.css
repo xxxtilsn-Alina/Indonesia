@@ -36,6 +36,10 @@ body {
   margin-right: auto;
 }
 
+.header-lists {
+  display: flex;
+}
+
 .logo {
   color: var(--accent-color);
   font-feature-settings: "clig" off, "liga" off;
@@ -162,20 +166,22 @@ body {
   padding-bottom: 305px;
 }
 
-.indonesia-walkways {
-  display: flex;
-  align-items: center;
-  margin-left: 340px;
-  margin-bottom: 192px;
-}
-
 .walkways-item {
-  max-width: 480px;
-  margin-right: 196px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.walkways-item-one {
-  margin-left: 130px;
+.walkways-item:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+.wallkways-wrapper {
+  max-width: 480px;
+}
+
+.walkways-photo {
+  margin-bottom: 192px;
 }
 
 .walkways-text {
