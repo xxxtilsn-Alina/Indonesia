@@ -33,11 +33,9 @@ body {
 }
 
 .header-navigation {
-  display: flex;
+  margin-right: auto;
 }
-.header-lists {
-  display: flex;
-}
+
 .logo {
   color: var(--accent-color);
   font-feature-settings: "clig" off, "liga" off;
@@ -70,6 +68,11 @@ body {
 
 .Indonesia-black {
   margin-left: 277px;
+  display: flex;
+}
+
+.black-say {
+  max-width: 418px;
 }
 
 .indonesia-text {
@@ -211,11 +214,6 @@ body {
 
 /* secrets */
 
-.ssecrets-item {
-  margin-right: auto;
-  margin-left: auto;
-}
-
 .secrets-title {
   color: var(--footer-color);
   text-align: center;
@@ -226,14 +224,15 @@ body {
   margin-bottom: 45px;
 }
 
-.secrets-item {
-  display: flex;
+.secrets-list {
   align-items: center;
-  gap: 31px;
+  display: flex;
+  outline: solid blue;
 }
 
 .sekrets-wrapper {
   text-align: center;
+  outline: solid red;
 }
 
 /* numbers */
