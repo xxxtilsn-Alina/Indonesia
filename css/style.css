@@ -248,7 +248,7 @@ body {
 /* numbers */
 
 .numbers {
-  background-color: #000;
+  background-color: var(--title-color);
   padding-top: 201px;
   padding-bottom: 224px;
 }
@@ -310,6 +310,11 @@ body {
 
 /* nothing */
 
+.nothing {
+  padding-top: 250px;
+  padding-bottom: 255px;
+}
+
 .nothing-title {
   color: var(--title-color);
   text-align: center;
@@ -317,6 +322,10 @@ body {
   font-size: 42px;
   font-weight: 700;
   line-height: 50px;
+  margin-bottom: 32px;
+  max-width: 614px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .nothing-info {
@@ -327,14 +336,33 @@ body {
   font-weight: 400;
   line-height: 2.8;
   letter-spacing: 0.5px;
+  max-width: 470px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 36px;
 }
 
 .nothing-btn {
   border-radius: 122px;
   background: var(--button-color);
+  display: flex;
+  width: 210px;
+  height: 64px;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  flex-shrink: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* imagine */
+
+.imagine {
+  padding-top: 141px;
+  padding-bottom: 255px;
+}
 
 .imagine-title {
   color: var(--accent-color);
@@ -343,6 +371,7 @@ body {
   font-size: 42px;
   font-weight: 700;
   line-height: 50px;
+  margin-bottom: 67px;
 }
 
 .imagine-text {
@@ -352,6 +381,17 @@ body {
   line-height: 1.5;
 }
 
+.imagine-photo {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  margin-bottom: 125px;
+}
+
+.imagine-video1 {
+  margin-right: 42px;
+}
+
 .imagine-info {
   color: var(--accent-color);
   font-feature-settings: "clig" off, "liga" off;
@@ -359,9 +399,36 @@ body {
   font-weight: 400;
   line-height: 2.8;
   letter-spacing: 0.5px;
+  width: 324px;
+  height: 107px;
+}
+
+.imagine-list {
+  display: flex;
+  gap: 75px;
+}
+
+.imagine-item {
+  display: flex;
 }
 
 /* Gallery */
+
+.gallery {
+  padding-top: 177px;
+  padding-bottom: 229px;
+}
+
+.gallery-list {
+  width: 1170px;
+  height: 770px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .gallery-title {
   color: var(--footer-color);
@@ -369,6 +436,7 @@ body {
   font-size: 60px;
   font-weight: 700;
   line-height: 1.5;
+  margin-bottom: 42px;
 }
 
 .gallery-info {
@@ -378,9 +446,19 @@ body {
   font-weight: 400;
   line-height: 2.8;
   letter-spacing: 0.18px;
+  margin-bottom: 71px;
+}
+
+.photo-gallery {
+  display: block;
 }
 
 /* Getting */
+
+.getting {
+  padding-top: 119px;
+  padding-bottom: 117px;
+}
 
 .getting-title {
   color: var(--footer-color);
@@ -388,6 +466,7 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 1.5;
+  margin-bottom: 45px;
 }
 
 .getting-nomber {
@@ -398,11 +477,37 @@ body {
   line-height: 38.146px;
 }
 
+.puple-fon {
+  background: #dd2242;
+  border-radius: 50%;
+  width: 59px;
+  height: 59px;
+  flex-shrink: 0;
+  margin-right: 44px;
+  margin-left: 45px;
+  text-align: center;
+}
+
+.getting-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.getting-box {
+  width: 1039px;
+  margin-bottom: 94px;
+}
+
+.getting-box-experinses {
+  width: 1039px;
+}
+
 .getting-text {
   color: var(--footer-color);
   font-size: 26.409px;
   font-weight: 700;
   line-height: 41.081px;
+  margin-bottom: 28px;
 }
 
 .getting-info {
@@ -417,6 +522,7 @@ body {
   font-size: 26.409px;
   font-weight: 700;
   line-height: 41.081px;
+  margin-bottom: 12px;
 }
 
 .getting-fact-information {
@@ -424,9 +530,49 @@ body {
   font-size: 23.475px;
   font-weight: 400;
   line-height: 38.146px;
+  width: 447px;
+}
+
+.getting-motorbike {
+  margin-right: 46px;
+  margin-left: 71px;
+  margin-bottom: 110px;
+}
+
+.getting-btn {
+  display: flex;
+  width: 210px;
+  height: 64px;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  flex-shrink: 0;
+  border-radius: 122px;
+  background: #dd2242;
+  color: var(--accent-color);
+  text-align: center;
+  /* CTA */
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 27px */
+  margin-left: 71px;
+  margin-top: 17px;
 }
 
 /* footer */
+
+footer {
+  padding-top: 48px;
+  padding-bottom: 32px;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+}
 
 .footer-explore {
   color: var(--button-color);
@@ -439,6 +585,19 @@ body {
   text-transform: uppercase;
 }
 
+.footer-list {
+  display: flex;
+  gap: 36px;
+  margin-right: auto;
+}
+
+.footer-list-icon {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  margin-right: 50px;
+}
+
 .footer-logo {
   color: var(--accent-color);
   font-feature-settings: "clig" off, "liga" off;
@@ -448,6 +607,14 @@ body {
   line-height: 90.5%;
   letter-spacing: 0.315px;
   text-transform: uppercase;
+}
+
+.footer-box {
+  width: 128px;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  margin-right: 124px;
 }
 
 .footer-link {
