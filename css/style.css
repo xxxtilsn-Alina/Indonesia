@@ -11,7 +11,17 @@
 
 body {
   font-family: "DM Sans", sans-serif;
-  background-color: plum;
+}
+
+.header-wrapper {
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.4430147058823529) 0%,
+      rgba(0, 0, 0, 0.48783263305322133) 35%
+    ),
+    url(../img/hero-bacground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .container {
   width: 1640px;
@@ -19,7 +29,6 @@ body {
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
-  outline: solid red;
 }
 
 .header-container {
@@ -166,7 +175,7 @@ body {
 
 .walkways-item {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -174,12 +183,12 @@ body {
   flex-direction: row-reverse;
 }
 
-.wallkways-wrapper {
-  max-width: 480px;
+.walkways-item:nth-child(1n) {
+  margin-bottom: 192px;
 }
 
-.walkways-photo {
-  margin-bottom: 192px;
+.wallkways-wrapper {
+  max-width: 480px;
 }
 
 .walkways-text {
@@ -218,13 +227,19 @@ body {
 
 /* secrets */
 
+.secrets {
+  padding-top: 127px;
+  background-image: url(../img/secrets.png);
+  padding-bottom: 886px;
+}
+
 .secrets-title {
   color: var(--footer-color);
   text-align: center;
   font-size: 50px;
   font-weight: 700;
   line-height: 1.5;
-  padding-top: 127px;
+
   margin-bottom: 45px;
 }
 
@@ -248,9 +263,9 @@ body {
 /* numbers */
 
 .numbers {
-  background-color: var(--title-color);
   padding-top: 201px;
   padding-bottom: 224px;
+  background-image: url(../img/numbers.png);
 }
 
 .numbers-list {
@@ -313,6 +328,8 @@ body {
 .nothing {
   padding-top: 250px;
   padding-bottom: 255px;
+  background-image: url(../img/nothing.png), url(../img/nothing.png);
+  background-repeat: no-repeat;
 }
 
 .nothing-title {
@@ -362,6 +379,12 @@ body {
 .imagine {
   padding-top: 141px;
   padding-bottom: 255px;
+  background-image: url(../img/imagine.png),
+    linear-gradient(
+      352deg,
+      rgba(47, 33, 33, 0.8631827731092436) 0%,
+      rgba(56, 29, 29, 0.8687850140056023) 82%
+    );
 }
 
 .imagine-title {
@@ -395,7 +418,7 @@ body {
 .imagine-info {
   color: var(--accent-color);
   font-feature-settings: "clig" off, "liga" off;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 400;
   line-height: 2.8;
   letter-spacing: 0.5px;
@@ -405,7 +428,7 @@ body {
 
 .imagine-list {
   display: flex;
-  gap: 75px;
+  justify-content: space-around;
 }
 
 .imagine-item {
@@ -458,6 +481,7 @@ body {
 .getting {
   padding-top: 119px;
   padding-bottom: 117px;
+  background-color: #dce8f2;
 }
 
 .getting-title {
@@ -471,10 +495,12 @@ body {
 
 .getting-nomber {
   color: var(--accent-color);
-  text-align: center;
   font-size: 26.409px;
   font-weight: 500;
   line-height: 38.146px;
+  position: absolute;
+  top: 12px;
+  left: 23px;
 }
 
 .puple-fon {
@@ -485,7 +511,7 @@ body {
   flex-shrink: 0;
   margin-right: 44px;
   margin-left: 45px;
-  text-align: center;
+  position: relative;
 }
 
 .getting-item {
